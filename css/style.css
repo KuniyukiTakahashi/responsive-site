@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html {
+    font-size: 62.5%; }
+
+body {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    letter-spacing: .1em;
+	color: #010000; }
+a {
+    color: #fff;}
+        a:visited {
+        color: #fff; }
+        a:hover {
+        color: #fff;
+        background-color: #595757; }
+        a:active {
+        color: #3E3A39; }
+/* Align
+------------------------------------------------------------*/
+.text-center {
+    text-align: center; }
+/* Layout
+------------------------------------------------------------*/
+.block-center,
+section .container {
+    display: block;
+    margin-right: auto;
+    margin-left: auto; }
+/* Layout
+------------------------------------------------------------*/
+.img01 {
+	height: 500px;
+    width: 100%;
+	background-position: center center;
+	background-size: cover; }
+/* Contents
+------------------------------------------------------------*/
+section {
+    padding-top: 60px; }
+section .container {
+    width: 80%; }
+section h1 {
+    font-size: 3.2rem; }
+#three-box .container {
+    display: -webkit-flex;
+    display:         flex;
+    justify-content: space-between; }
+#three-box .page-box {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-flex: 1;
+            flex: 1;
+    margin: 60px 30px;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+    background-color: #fdfcf6; }
+#three-box h2 {
+    font-size: 3.2rem;
+    margin: 0px;
+	padding: 20px;
+	background-color: #DCDDDD; }
+.page-box p {
+	font-size: 3.2rem;
+	text-align: center;
+	margin: 0px;
+	padding: 80px;
+	background: #9FA0A0; }
+/* button
+------------------------------------------------------------*/
+#one-button {
+	background-color: #DCDDDD;
+	padding: 60px 0; }
+#one-button h1 {
+	font-size: 2.0rem;
+	font-weight: bold;
+	margin: 10px; }
+.button  {	
+    width: 300px;
+    margin: 0 auto;
+    padding: 5px 0;
+    font-size: 20px;
+	font-weight: bold;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #fff;
+    background: #9FA0A0;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+		    border-radius: 5px; }
+/* Contents
+------------------------------------------------------------*/
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+	margin: 0 10px; }
+  .img01 {
+	height: 250px;
+    width: 100%;
+	background-position: center center;
+	background-size: cover; } }
