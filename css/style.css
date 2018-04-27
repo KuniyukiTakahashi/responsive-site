@@ -30,13 +30,15 @@ section .container {
     display: block;
     margin-right: auto;
     margin-left: auto; }
-/* Layout
+/* header-image
 ------------------------------------------------------------*/
 .img01 {
-	height: 500px;
-    width: 100%;
-	background-position: center center;
-	background-size: cover; }
+  background-image: url("../images/images_top.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
 /* Contents
 ------------------------------------------------------------*/
 section {
@@ -100,8 +102,9 @@ section h1 {
   .container {
     flex-direction: column;
 	margin: 0 10px; }
-  .img01 {
-	height: 250px;
-    width: 100%;
-	background-position: center center;
-	background-size: cover; } }
+	.img01 {
+  background-image: url("../images/images_top.jpg");
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; } }
